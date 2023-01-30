@@ -1,0 +1,22 @@
+install mongodb from products from community server (this installs nodejs too)
+npm init - fill all details  ( need nodejs install)
+npm i express
+npm i mongoose
+
+
+Set-ExecutionPolicy Unrestricted
+    Get-ExecutionPolicy
+//make powershell run as administrator
+
+npm i -D nodemon - to install nodemon as dev dependency
+nodemon index.js - to connect to mongo
+
+mongodb+srv://yashjaiswalonly:<password>@newcluster.z6cxguf.mongodb.net/test - my atlas cluster mongoURI
+https://www.youtube.com/watch?v=vAHd7oV1uE0 - to connect atlas to compas
+
+npm install --save express-validator  -> to install express validator
+npm i bcryptjs - for password authentication (hashing)
+npm i jsonwebtoken - for verifying users
+npm i react-router-dom concurrently (ek se zyada servers chalane hai to,outer package.json pe ek command add ki hai)
+
+backend or frontend ka nodemodules or package.json alag alag hota hai
