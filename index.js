@@ -14,9 +14,9 @@ app.use(express.json()) //to use req.body  (middleware)
 
 app.use('/api/auth',require('./routes/auth'))
 app.use('/api/notes',require('./routes/notes'))
-// app.get('/', (req, res) => {
-//   res.send('Hello Yash!')
-// }) 
+app.get('/', (req, res) => {
+  res.send('Hello Yash!')
+}) 
 // app.get('/api/v1/login', (req, res) => {
 //   res.send('Hello Login!')
 // })
